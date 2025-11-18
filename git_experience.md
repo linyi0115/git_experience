@@ -9,9 +9,9 @@ tips:
 ③.证书有效性：检查服务器证书是否由受信任的机构签发且未过期
 对于公开仓库的个人项目禁用的风险较低，如果还是担心风险的话可以禁用上传成功后立马重新启用
 ```
-#应用常见的config配置函数
-git config http.sslVerify false #禁用SSL
-git config http.sslVerify true  #启用SSL
+# 应用常见的config配置函数
+git config http.sslVerify false # 禁用SSL
+git config http.sslVerify true  # 启用SSL
 ```
 
 3. 
