@@ -3,7 +3,7 @@ tips:
 1. 执行`cd`时候后面**文件夹**路径需要用引号包裹
 
 2. 当执行`git push origin master`时，通常出现网路错误：以下是所有已尝试过的解决方法：
-- 禁用ssl，SSL/TLS 验证是一种安全机制，用于确保：
+- 禁用ssl(不确保是否运用成功)，SSL/TLS 验证是一种安全机制，用于确保：
 ①.身份验证：确认你连接的是真正的 GitHub 服务器，而不是假冒的
 ②.加密通信：确保数据传输过程中不会被窃听或篡改
 ③.证书有效性：检查服务器证书是否由受信任的机构签发且未过期
@@ -11,7 +11,7 @@ tips:
 ```
 #应用常见的config配置函数
 git config http.sslVerify false #禁用SSL
-git config htto.sslVerify true  #启用SSL
+git config http.sslVerify true  #启用SSL
 ```
 
 3. 
